@@ -9,6 +9,6 @@ export class ApiService {
   constructor(private http: HttpClient) {}
 
   getPosts(): Observable<any> {
-    return this.http.get('https://data-fetch-from-api.onrender.com/posts'); // Going through proxy
+    return this.http.get('https://dummy-json.mock.beeceptor.com/posts'); // Going through proxy
   }
 }
